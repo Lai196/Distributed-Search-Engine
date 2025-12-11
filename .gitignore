@@ -1,0 +1,16 @@
+*.class
+.vscode
+.DS_Store
+.project
+.classpath
+.settings
+.idea
+*.iml
+/build/
+
+bin/
+out/
+data/
+crawler/jar/
+crawler/logs/
+crawler/timestemp/

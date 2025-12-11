@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background: #222426;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchComponent {
+    text-align: center;
+    max-width: 720px;
+    width: 100%;
+	position: relative; 
+}
+
+.searchForm {
+    display: flex;
+    background: #111827dd;
+    border: 1px solid black;
+    box-shadow: 0 0 20px black;
+}
+
+.searchInput {
+    flex: 1;
+    background: white;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+}
+
+.searchButton {
+    background: #a63838;
+    color: white;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+}
+
+.searchTitle {
+    font-size:x-large;
+    color: floralwhite;
+    margin-bottom: 0.75rem;
+}
+
+.suggestions {
+    display: none;
+    background: white;
+    border: 1px solid #ccc;
+    max-width: 720px;
+    width: 100%;
+    margin-top: 2px;
+    text-align: left;
+    position: absolute;
+    z-index: 10;
+}
+
+.suggestion-item {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #eee;
+}
+
+.tower-hero {
+    position: relative;
+    margin-bottom: 2rem;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tower-hero svg {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
